@@ -1,0 +1,11 @@
+
+{
+  "name": "devops-tiny-web-app",
+  "version": "1.0.0",
+  "description": "A tiny API for a DevOps internship task",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test"
+  }
+}

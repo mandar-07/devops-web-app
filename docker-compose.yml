@@ -1,0 +1,10 @@
+
+services:
+  web:
+    build: .
+    image: devops-tiny-web-app:1.0
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    restart: unless-stopped
